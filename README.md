@@ -50,8 +50,9 @@ benchmark. Thin, long cracks are hard to segment precisely, which is why mask mA
 ## Running it
 
 Open the notebook in Colab with the badge above and choose **Runtime → Change runtime type → T4 GPU**.
-You need your own Roboflow API key to download the dataset. Put it in the dataset cell, or
-better, in Colab's **Secrets** panel, and don't commit it.
+You need your own Roboflow API key to download the dataset. Add it in Colab's **Secrets** panel
+(the key icon in the left sidebar) under the name `ROBOFLOW_API_KEY` and turn on notebook access.
+The notebook reads it from there, so the key never ends up in the file.
 
 ## Files
 
